@@ -1,0 +1,168 @@
+/* GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e bordas na altura e largura */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* TRANSIÇÃO */
+a, .btn {
+    transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+/* SECTIONS */
+section {
+    padding-top: 4vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+}
+
+/* PROFILE */
+#profile {
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.199);
+    align-items: flex-start; /* Alinha os itens ao topo */
+    gap: 2rem;
+    padding: 30px;
+    width: 100%; /* Define a largura como 100% do contêiner pai */
+    max-width: 1200px; /* Define uma largura máxima para a seção */
+    margin: 0 auto; /* Centraliza a seção horizontalmente */
+    background-color: white; /* Adiciona uma cor de fundo para destacar a seção */
+    border-radius: 10px; /* Adiciona cantos arredondados para um visual mais suave */
+}
+
+.section__pic__container {
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+.section__pic__container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinha o conteúdo verticalmente ao topo */
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0.5rem 0; /* Margem superior e inferior */
+}
+
+#socials-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 10px 0;
+}
+
+.icon {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+}
+
+/* QUALITIES AND FLAWS */
+#traits {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 5px;
+}
+
+.section__text__traits {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.title_ql, .title_fl {
+    font-size: 1.5rem;
+}
+
+.section__text__quality p, .section__text__flaws p {
+    margin: 1rem;
+}
+
+/* NEW SECTIONS */
+#whoami, #skills, #resume {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.199);
+    padding: 30px;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 1200px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#skills ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+#skills ul li {
+    margin: 0.5rem 0;
+}
+
+.title_whoami{
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}

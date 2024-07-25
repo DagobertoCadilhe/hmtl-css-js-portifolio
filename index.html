@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Portfólio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Perfil</a></li>
+                <li><a href="#whoami">Quem Sou</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#resume">Currículo</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic__container">
+            <img src="./assets/profile-pic.png" alt="Foto de Perfil Dagoberto">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Oi, me chamo</p>
+            <h1 class="title">Dagoberto Cadilhe</h1>
+            <p class="section__text__p2">Estudande de Engenharia de Computação</p>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Meu LinkedIN" class="icon" onclick="location.href='https://www.linkedin.com/in/dagoberto-cadilhe-299111233/'">
+                <img src="./assets/github.png" alt="Meu GitHub" class="icon" onclick="location.href='https://github.com/DagobertoCadilhe'">
+            </div>
+            <div id="traits">
+                <div id="defeitos" class="section__text__traits">
+                    <h1 class="title_fl">Defeitos</h1>
+                    <p class="section__text_f1">Primeiro</p>
+                    <p class="section__text_f2">Segundo</p>
+                    <p class="section__text_f3">Terceiro</p>
+                </div>
+                <div id="qualidades" class="section__text__traits">
+                    <h1 class="title_ql">Qualidades</h1>
+                    <p class="section__text_q1">Primeiro</p>
+                    <p class="section__text_q2">Segundo</p>
+                    <p class="section__text_q3">Terceiro</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="whoami">
+        <h1 class="title_whoami">Quem sou</h1>
+        <p>Eu sou um estudante de Engenharia de Computação com interesse em desenvolvimento web e programação. Tenho experiência em várias linguagens de programação e estou sempre buscando aprender mais.</p>
+    </section>
+    <section id="skills">
+        <h1 class="title_skills">Habilidades</h1>
+        <ul>
+            <li>Programação em Python, JavaScript</li>
+            <li>Desenvolvimento web com HTML, CSS, React</li>
+            <li>Banco de dados SQL</li>
+            <li>Versionamento com Git</li>
+        </ul>
+    </section>
+    <section id="resume">
+        <h1 class="title">Currículo resumido</h1>
+        <p>Tenho experiência em projetos acadêmicos e pessoais que envolvem desenvolvimento de software e engenharia de sistemas. Participei de várias competições de programação e desenvolvi aplicações web e móveis.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
